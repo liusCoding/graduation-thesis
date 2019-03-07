@@ -45,7 +45,7 @@
  <!-- 验证码 -->
   <servlet>
     <servlet-name>authImg</servlet-name>
-    <servlet-class>com.wxiao.web.servlet.AuthImg</servlet-class>
+    <servlet-class>cn.itbaizhan.web.servlet.AuthImg</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>authImg</servlet-name>

@@ -16,7 +16,7 @@
 	<!-- mvc命名空间，用来支持对于mvc的配置，自动注册基于注解风格的处理器和适配器，在spring3中还支持各种数据的转换器 -->
 	<mvc:annotation-driven/>
 	<!-- 自动检测控制器组件 -->
-	<context:component-scan base-package="cn.itbaizhai.web.controller"></context:component-scan>
+	<context:component-scan base-package="cn.itbaizhan.web.controller"></context:component-scan>
 	<!-- 逻辑静态资源路径到物理静态资源的路径 -->
 	<mvc:resources mapping="/style/**" location="/WEB-INF/jsp/style/"/> 
 	<mvc:resources mapping="/js/**" location="/WEB-INF/jsp/js/"/> 
@@ -28,7 +28,8 @@
 	<mvc:resources mapping="/icon/**" location="/WEB-INF/jsp/icon/"/> 
 	<mvc:resources mapping="/upload/pic/**" location="/WEB-INF/jsp/upload/pic/"/> 
 	<mvc:resources mapping="/script/**" location="/WEB-INF/jsp/script/"/> 
-	<mvc:resources mapping="/**.do" location="classPath:/com/wxiao/web/servlet/"/>
+	<mvc:resources mapping="/**.do" location="classPath:/cn/itbaizhan/web/servlet/"/>
+	
 	<!-- 将静态资源交给默认的servlet处理 -->
 	<mvc:default-servlet-handler/>
 	

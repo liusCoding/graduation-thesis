@@ -28,7 +28,8 @@
 	<mvc:resources mapping="/icon/**" location="/WEB-INF/jsp/icon/"/> 
 	<mvc:resources mapping="/upload/pic/**" location="/WEB-INF/jsp/upload/pic/"/> 
 	<mvc:resources mapping="/script/**" location="/WEB-INF/jsp/script/"/> 
-	<mvc:resources mapping="/**.do" location="classPath:/com/wxiao/web/servlet/"/>
+	<mvc:resources mapping="/**.do" location="classPath:/cn/itbaizhan/web/servlet/"/>
+	
 	<!-- 将静态资源交给默认的servlet处理 -->
 	<mvc:default-servlet-handler/>
 	

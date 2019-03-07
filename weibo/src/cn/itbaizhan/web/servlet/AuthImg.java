@@ -43,7 +43,7 @@ public class AuthImg extends HttpServlet {
 		g.fillRect(0, 0, width, height);
 
 		g.setFont(mFont);
-
+			
 		g.setColor(getRandColor(160, 200));
 		for (int i = 0; i < 155; i++) {
 			int x = random.nextInt(width);

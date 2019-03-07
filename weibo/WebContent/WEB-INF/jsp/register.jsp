@@ -13,7 +13,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
 <link rel="stylesheet" type="text/css" href="css/global.css" />
 <link rel="stylesheet" type="text/css" href="css/register.css" />
-<title>微博注册</title>
+<title>Liushuai微博注册</title>
 <script type="text/javascript" src="script/register.js"></script>
 <script type="text/javascript" src="script/ajax.js"></script>
 </head>
@@ -33,7 +33,7 @@
     <td width="670" valign="top"><form action="register_action" method="post" onsubmit="return chechUser()">
       <table border="0" align="center" cellpadding="0" cellspacing="0" id="register">
         <tr>
-          <td class="title">开通微博账号</td>
+          <td class="title">开通Liushuai微博账号</td>
         </tr>
         <tr>
           <td><table width="90%" border="0" cellpadding="5" cellspacing="0" id="register_content">
@@ -89,7 +89,7 @@
               </tr>
             <tr>
               <td align="center">&nbsp;</td>
-              <td align="left">《微博网络使用协议》</td>
+              <td align="left">《Liushuai微博网络使用协议》</td>
               <td align="center">&nbsp;</td>
             </tr>
           </table></td>
@@ -103,7 +103,7 @@
         <form id="form1" name="form1" method="post" action="login_action" onsubmit="return checkForm()">
         <table id="login" width="220" border="0" cellspacing="0" cellpadding="0">
           <tr>
-            <td colspan="2" class="title">已有微博登录账号？</td>
+            <td colspan="2" class="title">已有Liushuai微博登录账号？</td>
           </tr>
           <tr>
             <td colspan="2" align="left">邮箱地址：<br />

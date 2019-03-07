@@ -26,7 +26,7 @@
           <td width="20%"><a href="profile_index?action=all">我的博客</a></td>
           <td width="20%"><a href="friend_index">我的好友</a></td>
           <td width="20%"><a href="collect_index">我的收藏</a></td>
-          <td width="20%"><a href="conch_index?operation=NEWS&nPage=1">神奇海螺</a></td>
+          <td width="20%"><a href="conch_index?operation=NEWS&nPage=1">神奇树洞</a></td>
         </tr>
       </table>
     </td>

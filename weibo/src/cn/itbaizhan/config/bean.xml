@@ -26,10 +26,10 @@
 			<value>jdbc:oracle:thin:@127.0.0.1:1521:ORCL</value>
 		</property>
 		<property name="username">
-			<value>scott</value>
+			<value>root</value>
 		</property>
 		<property name="password">
-			<value>1234</value>
+			<value>root</value>
 		</property>
 		<!-- 最大连接数 -->
 		<property name="maxActive">
@@ -45,6 +45,7 @@
 			<value>3000</value>
 		</property>
 	</bean>
+	
     <!-- 配置sqlsessionFactory -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">  
       <property name="dataSource" ref="dataSource" />   
