@@ -33,7 +33,7 @@
   	<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
   	<init-param>
   		<param-name>contextConfigLocation</param-name>
-  		<param-value>classpath:cn/itbaizhan/config/spring-web-mvc.xml</param-value>
+  		<param-value>classpath:cn/liushuai/config/spring-web-mvc.xml</param-value>
   	</init-param>
   	<load-on-startup>1</load-on-startup>
   </servlet>
@@ -45,7 +45,7 @@
  <!-- 验证码 -->
   <servlet>
     <servlet-name>authImg</servlet-name>
-    <servlet-class>cn.itbaizhan.web.servlet.AuthImg</servlet-class>
+    <servlet-class>cn.liushuai.web.servlet.AuthImg</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>authImg</servlet-name>
@@ -88,6 +88,6 @@
   <!-- 读取bean.xml文件 -->
   <context-param>
   	<param-name>contextConfigLocation</param-name>
-  	<param-value>classpath:cn/itbaizhan/config/bean.xml</param-value>
+  	<param-value>classpath:cn/liushuai/config/bean.xml</param-value>
   </context-param>
 </web-app>

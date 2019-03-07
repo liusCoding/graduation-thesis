@@ -142,7 +142,7 @@
         <table align="center" id="userinfo">
           <tr>
             <td width="25%" rowspan="2"><img src="${loginUser.images}" width="50" height="50" /></td>
-            <td width="75%"><a href="profile.html">${loginUser.nickName}</a></td>
+            <td width="75%"><a href="#">${loginUser.nickName}</a></td>
           </tr>
           <tr>
             <td valign="top">${loginUser.position}</td>
