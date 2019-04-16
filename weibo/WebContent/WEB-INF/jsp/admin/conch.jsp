@@ -13,7 +13,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
 <link rel="stylesheet" type="text/css" href="css/global.css" />
 <link rel="stylesheet" type="text/css" href="css/userinfo.css" />
-<title>海螺管理</title>
+<title>树洞管理</title>
 </head>
 <body>
 <!-- header开始-->
@@ -25,10 +25,10 @@
     <td width="670" height="500" valign="top">
       <table border="0" align="center" cellpadding="0" cellspacing="0" id="userinfo">
         <tr>
-        	<td colspan="2">海螺管理</td>
+        	<td colspan="2">树洞管理</td>
         	<td align="right" colspan="4">
         		<form id="form1" name="form1" method="post" action="conchManage?page=1">
-              		<input name="key" type="text"  id="textfield"  placeholder="输入海螺内容。。。"/>
+              		<input name="key" type="text"  id="textfield"  placeholder="输入树洞内容。。。"/>
              	 	<input name="button" type="submit" class="btnsearch" id="button" value="搜索" />
             	</form>
             </td>
@@ -37,9 +37,9 @@
 		<tr>
 			<td>问题编号</td>
 			<td>发布人名称</td>
-			<td>海螺内容</td>
+			<td>树洞内容</td>
 			<td>发布日期</td>
-			<td>海螺状态</td>
+			<td>树洞状态</td>
 			<td>操作</td>
 		</tr>
 		<c:forEach items="${conchList}" var="conch">

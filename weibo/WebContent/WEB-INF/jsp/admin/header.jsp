@@ -24,7 +24,7 @@
           <td width="20%"><a href="adminIndex">首页</a></td>
           <td width="20%"><a href="userManage?page=1&key=all">用户管理</a></td>
           <td width="20%"><a href="weiboManage?page=1&key=all">微博管理</a></td>
-          <td width="20%"><a href="conchManage?page=1&key=all">海螺管理</a></td>
+          <td width="20%"><a href="conchManage?page=1&key=all">树洞管理</a></td>
         </tr>
       </table>
     </td>

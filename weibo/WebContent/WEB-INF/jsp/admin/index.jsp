@@ -34,7 +34,7 @@
 				data : ["${map.ww1}","${map.ww2}","${map.ww3}","${map.ww4}","${map.ww5}","${map.ww6}","${map.ww7}"]
 			},
 			{
-				lineItemName : "海螺数",
+				lineItemName : "树洞数",
 				fillColor : "rgba(151,187,205,0.5)",
 				strokeColor : "rgba(151,187,205,1)",
 				pointColor : "rgba(151,187,205,1)",
@@ -45,7 +45,7 @@
 	};
 	var data2 = [
 				{
-					label: "本周海螺数",
+					label: "本周树洞数",
 					//value: "${map.wc1+map.wc2+map.wc3+map.wc4+map.wc5+map.wc6+map.wc7}",
 					value: 1,
 					color:"#F38630"
@@ -59,7 +59,7 @@
 			];
 		var data4 = [
 					{
-						label: "海螺总数",
+						label: "树洞总数",
 						//value: "${map.c2}",
 						value: 17,
 						color:"#F38630"
@@ -90,7 +90,7 @@
 					}			
 				];
 		var data3 = {
-				labels : ["用户数","微博数","评论数","海螺数","回答数"],
+				labels : ["用户数","微博数","评论数","树洞数","回答数"],
 				datasets : [
 					{
 						barItemName: "历史总数",
@@ -139,7 +139,7 @@
         	<td><canvas id="bChart" width="300" height="300"></canvas></td>
         </tr>
         <tr>
-        	<td>本周微博海螺发布数统计</td>
+        	<td>本周微博树洞发布数统计</td>
         </tr>
         <tr>
         	<td><canvas id="weekChart" width="500" height="300"></canvas></td>
