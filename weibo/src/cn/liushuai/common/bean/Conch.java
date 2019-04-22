@@ -1,11 +1,5 @@
 package cn.liushuai.common.bean;
-/** 
- * @author : 
- * @date 创建时间：2017年4月17日 下午5:02:34
- * @version 1.0 
- * @parameter 
- * @return 
- */
+
 public class Conch {
 	private long id;
 	private long userId;
