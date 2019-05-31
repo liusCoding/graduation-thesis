@@ -52,11 +52,17 @@
               <td><input name="rpassword" type="password" class="input1" id="rpassword" onblur="checkrepwd()"/></td>
               <td width="27%"><span id="repwdmsg"></td>
             </tr>
+            
             <tr>
               <td align="right">昵称：</td>
               <td><input name="nickName" type="text" class="input1" id="nickname" onblur="checknickname()" /></td>
               <td width="27%"><span id="nicknamemsg"></td>
             </tr>
+            
+            
+             、
+            
+            
             <tr>
               <td align="right">性别：</td>
               <td><input type="radio" name="sex" id="radio" value="1" checked="checked"/>

@@ -36,7 +36,7 @@ public interface IUserDao {
 	//通过评论id获取评论人id
 	long findUserIdByCommId(long commId) throws DataAccessException;
 	
-	//修改用户海螺积分
+	//修改用户问答积分
 	void saveConchIntegral(User user) throws DataAccessException;
 	
 	//更改用户信息
@@ -45,28 +45,28 @@ public interface IUserDao {
 	//更改用户信息(关注数，粉丝数，微博数，收藏数变化)
 	void updateUserForNum(User user) throws DataAccessException;
 	
-	//用户发布海螺问题
+	//用户发布问答问题
 	void saveConch(Conch conch) throws DataAccessException;
 	
-	//查找海螺by最新
+	//查找问答by最新
 	List<Conch> findConchByNews(int minPage,int maxPage) throws DataAccessException;
 	int findConchByNewsNum()throws DataAccessException;
 	
-	//查找海螺by是否解决
+	//查找问答by是否解决
 	List<Conch> findConchByState(int state,int minPage,int maxPage) throws DataAccessException;
 	int findConchByStateNum(int state) throws DataAccessException;
 	
-	//查找我的海螺消息
+	//查找我的问答消息
 	List<Conch> findConchByMe(long id,int minPage,int maxPage) throws DataAccessException;
 	int findConchByMeNum(long id) throws DataAccessException;
 	
-	//通过海螺id查找海螺
+	//通过问答id查找问答
 	Conch findConchById(long conchId)throws DataAccessException;
 	
-	//设置海螺状态为1
+	//设置问答状态为1
 	void setConchState(long conchId)throws DataAccessException;
 	
-	//设置海螺评论状态为101
+	//设置问答评论状态为101
 	void setConchComm(long commId) throws DataAccessException;
 	
 	//查看用户是否被封禁

@@ -13,7 +13,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="css/global.css" />
 <link rel="stylesheet" type="text/css" href="css/profile.css" />
-<title>微博 - ${logonUser.nickName}的海螺问题</title>
+<title>微博 - ${logonUser.nickName}的问答专区</title>
 <script type="text/javascript" src="script/ajax.js"></script>
 <script type="text/javascript" src="script/jquery-1.8.3.min.js"></script>
 <script type="text/javascript" src="script/profile.js"></script>

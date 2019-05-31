@@ -13,7 +13,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="css/global.css" />
 <link rel="stylesheet" type="text/css" href="css/home.css" />
-<title>神奇海螺</title>
+<title>问答专区</title>
 <script type="text/javascript" src="script/home.js"></script>
 <script type="text/javascript" src="script/jquery-1.8.3.min.js"></script>
  <script type="text/javascript" src="script/face.js"></script>
@@ -34,7 +34,7 @@
     <td width="670" height="600" valign="top"><form action="publishConch" method="post"><table width="100%" border="0" cellpadding="0" cellspacing="0" id="input">
       <tr>
         <td width="160" height="48">&nbsp;</td>
-        <td width="479"><!-- 有问题为什么步先问问神奇海螺 --></td>
+        <td width="479"><!-- 有问题为什么不先来问答专区 --></td>
         <td width="31">&nbsp;</td>
       </tr>
       <tr>
@@ -69,7 +69,7 @@
                 <td width="60px"><a href="conch_index?operation=NEWS&nPage=1">最新发布</a></td>
                 <td width="60px"><a href="conch_index?operation=SOLVE&nPage=1">已解决</a></td>
                 <td width="60px"><a href="conch_index?operation=UNSOLVE&nPage=1">未解决</a></td>
-                <td width="60px"><a href="conch_index?operation=ME&nPage=1">我的海螺</a></td>
+                <td width="60px"><a href="conch_index?operation=ME&nPage=1">我的问答专区</a></td>
               </tr>
             </table>
             </td>

@@ -22,15 +22,17 @@
     <td width="55%" align="right">
       <table border="0" align="right" cellpadding="0" cellspacing="0" id="daohang">
         <tr>
-          <td width="20%"><a href="home_index?p=1">我的首页</a></td>
-          <td width="20%"><a href="profile_index?action=all">我的博客</a></td>
-          <td width="20%"><a href="friend_index">我的好友</a></td>
-          <td width="20%"><a href="collect_index">我的收藏</a></td>
-          <td width="20%"><a href="conch_index?operation=NEWS&nPage=1">神奇树洞</a></td>
+          <td width="12.5%"><a href="home_index?p=1">热门</a></td>
+          <td width="12.5%"><a href="profile_index?action=all">博客</a></td>
+          <td width="12.5%"><a href="friend_index">好友</a></td>
+          <td width="12.5%"><a href="collect_index">收藏</a></td>
+          <td width="12.5%"><a href="conch_index?operation=NEWS&nPage=1">问答</a></td>
+          <td width="12.5%"><a href="#">新鲜事</a></td>
+          <td width="12.5%"><a href="#">附近</a></td>
         </tr>
       </table>
     </td>
-    <td width="25%" align="right">
+    <td width="15%" align="right">
       <table id="welcome" border="0" cellspacing="0" cellpadding="0" >
         <tr>          
           <td width="30" height="30" rowspan="2" class="userface_bg"><img src="${loginUser.images}" border="0" width="21" height="20" /></td>

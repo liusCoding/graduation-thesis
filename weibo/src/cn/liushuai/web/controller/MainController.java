@@ -435,8 +435,8 @@ public class MainController {
 			conchOperation = operation;
 		}
 		try {
-			//海螺分页
-			//获取海螺总数
+			//问题分页
+			//获取问答总数
 			int num = userService.conchNum(user.getId(), conchOperation);
 			if(num%5 == 0){
 				if(num == 0){
@@ -451,7 +451,7 @@ public class MainController {
 			page.setMinPage(nPage*5-4);
 			page.setMaxPage(nPage*5);
 			
-			//查找海螺显示
+			//查找问答显示
 			Map<String, Object> map = userService.conchIndex(user.getId(), conchOperation ,page);
 			
 			List<User> userTuiJian = weiboService.findUserTuiJian(user.getId());
@@ -479,8 +479,8 @@ public class MainController {
 			userService.publishConch(conch);
 			mav.addObject("msg", "发布成功！");
 			
-			//海螺分页
-			//获取海螺总数
+			//问答分页
+			//获取问答总数
 			int num = userService.conchNum(user.getId(), conchOperation);
 			if(num%5 == 0){
 				page.setTotalPage(num/5);
@@ -491,7 +491,7 @@ public class MainController {
 			page.setMinPage(1*5-4);
 			page.setMaxPage(1*5);
 			
-			//查找海螺显示
+			//查找问答显示
 			Map<String, Object> map = userService.conchIndex(user.getId(), conchOperation ,page);
 			
 			List<User> userTuiJian = weiboService.findUserTuiJian(user.getId());
@@ -505,7 +505,7 @@ public class MainController {
 	}
 	
 	/**
-	 * 海螺详细问题页面
+	 * 问答详细问题页面
 	 * conchDetail?conchId=
 	 * @return 
 	 */
@@ -530,9 +530,9 @@ public class MainController {
 	public ModelAndView createCommtoConch(long userId,long conchId,String inputbox){
 		mav.clear();
 		mav.setViewName("redirect:conchDetail");
-		WeiboComm comm = new WeiboComm();	//使用微博评论实体作为海螺评论实体
+		WeiboComm comm = new WeiboComm();	//使用微博评论实体作为问答评论实体
 		comm.setCommentId(userId);
-		comm.setWeiboId(conchId);	//将微博id属性作为海螺id
+		comm.setWeiboId(conchId);	//将微博id属性作为问答id
 		comm.setCommentBody(inputbox);
 		try {
 			userService.conchComm(comm);

@@ -29,7 +29,7 @@ public interface IUserService {
 	//增加用户的普通积分
 	User addIntegral(User user,String operation) throws UserServiceException;
 	
-	//增加用户的海螺积分
+	//增加用户的问答积分
 	User addCIntegral(User user,String operation) throws UserServiceException;
 	
 	//通过操作查找积分

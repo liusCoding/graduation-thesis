@@ -24,7 +24,7 @@ public interface IAdminDao {
 	//查找所有微博数
 	int findAllWeiboNum() throws DataAccessException;
 	
-	//查找所有海螺数
+	//查找所有问答数
 	int findAllConchNum() throws DataAccessException;
 	
 	int findConchNumByKey(String key) throws DataAccessException;
